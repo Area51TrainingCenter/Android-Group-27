@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dropbox</string>
+    <string name="hola">Hola</string>
+    <string name="ingrese_nombre">Ingrese Nombre</string>
+    <string name="procesar">Procesar</string>
+</resources>

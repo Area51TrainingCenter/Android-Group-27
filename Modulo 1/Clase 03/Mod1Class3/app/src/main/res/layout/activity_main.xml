@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jcodee.mod1class3.MainActivity">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/spGenero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/genero"></Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etEdad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:hint="@string/edad"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/spEstadoCivil"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"></Spinner>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnProcesar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/procesar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:text="@string/siguiente" />
+    </FrameLayout>
+</LinearLayout>
+
+    <!--
+    -Xms128m
+    -Xmx4096m
+    -XX:MaxPermSize=1024m
+    -XX:ReservedCodeCacheSize=200m
+    -XX:+UseCompressedOops
+    -->

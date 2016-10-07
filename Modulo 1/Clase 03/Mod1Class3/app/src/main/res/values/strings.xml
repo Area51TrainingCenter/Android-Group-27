@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mod1Class3</string>
+    <string name="nombre">Ingrese Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="procesar">Procesar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="atras">Atras</string>
+</resources>

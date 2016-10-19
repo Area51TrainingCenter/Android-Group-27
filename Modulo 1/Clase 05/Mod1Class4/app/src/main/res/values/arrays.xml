@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="estado">
+        <item>Soltero</item>
+        <item>Casado</item>
+    </string-array>
+</resources>

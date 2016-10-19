@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jcodee.mod1class4">
+
+    <!-- Especificamos que nuestra aplicación requiere internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- name = sobreescribimos el inicio de la aplicación
+     con los métodos o inicios que le asignemos -->
+    <application
+        android:name=".aplicacion.Configuracion"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Mapeamos el activity o la pantalla nueva que hemos creado -->
+        <activity
+            android:name=".RegistroActivity"
+            android:label="@string/pan_dos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListadoActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

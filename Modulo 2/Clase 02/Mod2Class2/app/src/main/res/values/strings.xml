@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mod2Class2</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="edad">Edad</string>
+    <string name="registrar">Registrar</string>
+    <string name="listado">Listado</string>
+</resources>

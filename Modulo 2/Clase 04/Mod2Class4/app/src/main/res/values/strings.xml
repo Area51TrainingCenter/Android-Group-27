@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mod2Class4</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="direccion">Dirección</string>
+    <string name="resultado">Resultado</string>
+    <string name="registrar">Registrar</string>
+    <string name="api_map">AIzaSyAXWct5-HcaW4OdkkPwFKLnUmSkfTxOQS0</string>
+</resources>
